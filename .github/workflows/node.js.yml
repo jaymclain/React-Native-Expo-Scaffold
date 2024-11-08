@@ -48,3 +48,7 @@ jobs:
         indicators: true
         output: both
         thresholds: '60 80'
+
+    - name: Write Job Summary
+      run: |
+        cat code-coverage-results.md >> $GITHUB_STEP_SUMMARY
