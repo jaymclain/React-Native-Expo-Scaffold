@@ -42,11 +42,6 @@
       "!**/expo-env.d.ts",
       "!**/.expo/**"
     ],
-    "coverageReporters": [
-      "json-summary",
-      "text",
-      "lcov",
-      "cobertura"
-    ]
+    "coverageReporters": [ "json-summary", "text", "cobertura" ]
   }
 }
